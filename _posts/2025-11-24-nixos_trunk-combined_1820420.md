@@ -4,7 +4,7 @@ categories: nixos:trunk-combined
 ---
 # Evals report
 
-*Report built at 2025-11-24 17:08:12 UTC*
+*Report built at 2025-11-24 20:09:57 UTC*
 
 Built for evals:
 
@@ -7938,7 +7938,7 @@ Built for evals:
 ### aarch64-linux
 
 
-<details><summary>953 issues</summary>
+<details><summary>958 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -8101,6 +8101,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/314583253'>nixos.tests.allDrivers.librewolf.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>librewolf-unwrapped-144.0.2-1</tt> <br /> <a href='https://hydra.nixos.org/build/314583253/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314583253/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314583253/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314587973'>build 314587973</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/314143443'>nixos.tests.allDrivers.lvm2.lvm-vdo-linux-latest.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -8134,6 +8148,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>udev-rules</tt> <br /> <a href='https://hydra.nixos.org/build/314143796/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314143796/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314143796/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314143732'>build 314143732</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/314583469'>nixos.tests.allDrivers.omnom.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>librewolf-unwrapped-144.0.2-1</tt> <br /> <a href='https://hydra.nixos.org/build/314583469/nixlog/4'>log</a>, <a href='https://hydra.nixos.org/build/314583469/nixlog/4/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314583469/nixlog/4/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314587973'>build 314587973</a>
 </li>
 </ul>
 </details>
@@ -8479,6 +8507,20 @@ Built for evals:
 <tr>
 <td>
 <details><summary>
+<tt><a href='https://hydra.nixos.org/build/314584273'>nixos.tests.librewolf.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>librewolf-unwrapped-144.0.2-1</tt> <br /> <a href='https://hydra.nixos.org/build/314584273/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314584273/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314584273/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314587973'>build 314587973</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
 <tt><a href='https://hydra.nixos.org/build/314146914'>nixos.tests.lvm2.lvm-vdo-linux-latest.aarch64-linux</a></tt>
 </summary>
 <ul>
@@ -8512,6 +8554,20 @@ Built for evals:
 <ul>
 <li>
 <b>=> Cached failure</b> <tt>udev-rules</tt> <br /> <a href='https://hydra.nixos.org/build/314147270/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314147270/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314147270/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314143732'>build 314143732</a>
+</li>
+</ul>
+</details>
+</td>
+<td>Dependency failed</td>
+</tr>
+<tr>
+<td>
+<details><summary>
+<tt><a href='https://hydra.nixos.org/build/314584493'>nixos.tests.omnom.aarch64-linux</a></tt>
+</summary>
+<ul>
+<li>
+<b>=> Failed</b> <tt>librewolf-unwrapped-144.0.2-1</tt> <br /> <a href='https://hydra.nixos.org/build/314584493/nixlog/1'>log</a>, <a href='https://hydra.nixos.org/build/314584493/nixlog/1/raw'>raw</a>, <a href='https://hydra.nixos.org/build/314584493/nixlog/1/tail'>tail</a>, <a href='https://hydra.nixos.org/build/314587973'>build 314587973</a>
 </li>
 </ul>
 </details>
@@ -13480,6 +13536,12 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<tt><a href='https://hydra.nixos.org/build/314587973'>nixpkgs.librewolf-unwrapped.aarch64-linux</a></tt>
+</td>
+<td>Failed</td>
+</tr>
+<tr>
+<td>
 <tt><a href='https://hydra.nixos.org/build/314194499'>nixpkgs.libtapi.aarch64-linux</a></tt>
 </td>
 <td>Failed</td>
@@ -15933,7 +15995,7 @@ Built for evals:
 ### Still queued
 
 
-<details><summary>67 issues</summary>
+<details><summary>62 issues</summary>
 <table>
 <thead><tr>
 <th>job</th>
@@ -16054,21 +16116,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/314583253'>nixos.tests.allDrivers.librewolf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/314583430'>nixos.tests.allDrivers.nginx-etag.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/314583469'>nixos.tests.allDrivers.omnom.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -16243,21 +16291,7 @@ Built for evals:
 </tr>
 <tr>
 <td>
-<tt><a href='https://hydra.nixos.org/build/314584273'>nixos.tests.librewolf.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
 <tt><a href='https://hydra.nixos.org/build/314584457'>nixos.tests.nginx-etag.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/314584493'>nixos.tests.omnom.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -16356,13 +16390,6 @@ Built for evals:
 <tr>
 <td>
 <tt><a href='https://hydra.nixos.org/build/314585879'>nixpkgs.firefoxpwa.aarch64-linux</a></tt>
-</td>
-<td>Queued</td>
-<th>aarch64-linux</th>
-</tr>
-<tr>
-<td>
-<tt><a href='https://hydra.nixos.org/build/314587973'>nixpkgs.librewolf-unwrapped.aarch64-linux</a></tt>
 </td>
 <td>Queued</td>
 <th>aarch64-linux</th>
@@ -16821,6 +16848,23 @@ Built for evals:
 </tr>
 <tr>
 <td>
+<details><summary><tt><a href='https://hydra.nixos.org/build/314587973'>aarch64-linux librewolf-unwrapped-144.0.2-1</a></tt></summary>
+<ul>
+<li>nixos.tests.allDrivers.librewolf.aarch64-linux</li>
+<li>nixos.tests.allDrivers.librewolf.x86_64-linux</li>
+<li>nixos.tests.allDrivers.omnom.aarch64-linux</li>
+<li>nixos.tests.allDrivers.omnom.x86_64-linux</li>
+<li>nixos.tests.librewolf.aarch64-linux</li>
+<li>nixos.tests.librewolf.x86_64-linux</li>
+<li>nixos.tests.omnom.aarch64-linux</li>
+<li>nixos.tests.omnom.x86_64-linux</li>
+</ul>
+</details>
+</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
 <details><summary><tt><a href='https://hydra.nixos.org/build/313913634'>aarch64-linux netatop-6.12.58-3.1</a></tt></summary>
 <ul>
 <li>nixos.tests.allDrivers.atop.everything.aarch64-linux</li>
@@ -17006,19 +17050,6 @@ Built for evals:
 </details>
 </td>
 <td>6</td>
-</tr>
-<tr>
-<td>
-<details><summary><tt><a href='https://hydra.nixos.org/build/314587988'>x86_64-linux librewolf-unwrapped-144.0.2-1</a></tt></summary>
-<ul>
-<li>nixos.tests.allDrivers.librewolf.x86_64-linux</li>
-<li>nixos.tests.allDrivers.omnom.x86_64-linux</li>
-<li>nixos.tests.librewolf.x86_64-linux</li>
-<li>nixos.tests.omnom.x86_64-linux</li>
-</ul>
-</details>
-</td>
-<td>4</td>
 </tr>
 <tr>
 <td>
